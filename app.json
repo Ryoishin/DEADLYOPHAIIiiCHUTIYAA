@@ -9,9 +9,9 @@
         "Deadly-spam-bot",
         "SpamBots"
       ],   
-  "repository": "https://github.com/Deadly-fighters",
-  "website": "https://github.com/Deadly-fighters",
-  "success_url": "https://t.me/deadly_userbot",
+  "repository": "https://github.com/Ryoishin",
+  "website": "https://github.com/Ryoishin",
+  "success_url": "https://t.me/Ryoishin",
   "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
