@@ -6,10 +6,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $RIZ_REPO == "DEADLY-SPAM-BOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0RFQURMWS1GSUdIVEVSUy9ERUFETFktU1BBTS1CT1QvYXJjaGl2ZS9tYWluLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1J5b2lzaGluL0RFQURMWS1TUEFNLUJPVC9hcmNoaXZlL21haW4uemlw==" | base64 -d
     elif [[ $RIZ_REPO == "DEADLY-SPAM-BOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0RFQURMWS1GSUdIVEVSUy9ERUFETFktU1BBTS1CT1QvYXJjaGl2ZS9tYWluLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1J5b2lzaGluL0RFQURMWS1TUEFNLUJPVC9hcmNoaXZlL21haW4uemlw==" | base64 -d
     elif [[ $RIZ_REPO =~ $regex ]]
     then
         if [[ $RIZ_REPO_BRANCH ]]
@@ -19,7 +19,7 @@ _get_repolink () {
             echo "${RIZ_REPO}/archive/main.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0RFQURMWS1GSUdIVEVSUy9ERUFETFktU1BBTS1CT1QvYXJjaGl2ZS9tYWluLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1J5b2lzaGluL0RFQURMWS1TUEFNLUJPVC9hcmNoaXZlL21haW4uemlw==" | base64 -d
     fi
 }
 
