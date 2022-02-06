@@ -1,7 +1,7 @@
 FROM sandy1709/catuserbot:alpine
 
 #clonning repo 
-RUN git clone https://github.com/DEADLY-FIGHTERS/DEADLY-SPAM-BOT.git /root/OfficialSameer
+RUN git clone https://github.com/Ryoishin/DEADLY-SPAM-BOT.git /root/OfficialSameer
 #working directory 
 WORKDIR /root/OfficialSameer
 
